@@ -11,21 +11,17 @@ const AuthSocial = () => {
         <span className="w-[72px] h-[1px] bg-[#B8B9C1]"></span>
       </div>
       <div>
-        <button className="w-full border-1 border-dashed border-[#A0CA18] py-3 rounded-[12px] flex items-center justify-center">
-          <img
-            src="/images/Social Media Logos.svg"
-            alt=""
-            className="flex items-center justify-center"
-          />
+        <button className="w-full h-[52px] border-1 border-dashed border-[#A0CA18] py-3 rounded-[12px] flex gap-3 items-center justify-center">
+          <img src="/images/Symbol.svg.svg" alt="" className="w-10 h-[28px]" />
           <span className="text-[#212E05] font-medium">
             Sign in with Google
           </span>
         </button>
-        <button className="w-full border-1 border-dashed border-[#A0CA18] py-3 mt-4 rounded-[12px] flex items-center justify-center">
+        <button className="w-full h-[52px] border-1 border-dashed border-[#A0CA18] py-3 mt-4 rounded-[12px] flex gap-3 items-center justify-center">
           <img
-            src="/images/Social Media Logos (1).svg"
+            src="/images/facebook logo.svg"
             alt=""
-            className="flex items-center justify-center"
+            className="w-10 h-[28px] ml-5"
           />
           <span className="text-[#212E05] font-medium">
             Sign in with Facebook

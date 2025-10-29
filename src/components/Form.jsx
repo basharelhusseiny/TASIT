@@ -42,7 +42,7 @@ const Form = () => {
               type="checkbox"
               className="appearance-none w-4 h-4 mb-0.5 border-2 border-gray-400 rounded-sm cursor-pointer
       checked:bg-[#BFE437] checked:border-[#BFE437]
-      checked:before:content-['✓'] checked:before:text-black checked:before:text-sm
+      checked:before:content-['✓'] checked:before:text-black checked:before:text-[10px]
       checked:before:flex checked:before:items-center checked:before:justify-center"
             />
             <span className="font-medium text-[#2E2E34]">Remember Me</span>
