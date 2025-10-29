@@ -1,4 +1,4 @@
-const SuccessfulLogin = () => {
+const SuccessLogin = () => {
   return (
     <div className="relative w-screen min-h-screen bg-gradient-to-l from-[#1C534A] to-[#002F31] text-white flex flex-col justify-between items-center overflow-hidden">
       {/* الخلفيات */}
@@ -47,4 +47,4 @@ const SuccessfulLogin = () => {
   );
 };
 
-export default SuccessfulLogin;
+export default SuccessLogin;

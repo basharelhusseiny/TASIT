@@ -12,7 +12,7 @@ const Form = () => {
 
     if (!email && !password) return;
 
-    navigate("/successfulLogin");
+    navigate("/SuccessLogin");
   };
 
   return (

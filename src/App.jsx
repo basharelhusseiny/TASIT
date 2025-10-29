@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Login from "./pages/Login";
-import SuccessfulLogin from "./pages/successfulLogin";
+import SuccessLogin from "./pages/SuccessLogin";
 
 const router = createBrowserRouter([
   {
@@ -8,8 +8,8 @@ const router = createBrowserRouter([
     element: <Login />,
   },
   {
-    path: "/successfulLogin",
-    element: <SuccessfulLogin />,
+    path: "/SuccessLogin",
+    element: <SuccessLogin />,
   },
 ]);
 
