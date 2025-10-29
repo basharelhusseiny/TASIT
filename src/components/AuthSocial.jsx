@@ -1,7 +1,7 @@
 const AuthSocial = () => {
   return (
-    <div className="mt-4">
-      <div className="py-6 flex items-center justify-center font-medium gap-1">
+    <div>
+      <div className="mb-6 flex items-center justify-center font-medium gap-1">
         <p className="text-[#2E2E34]">Don’t have an account? </p>
         <p className="text-[#A0CA18]">Sign Up</p>
       </div>
